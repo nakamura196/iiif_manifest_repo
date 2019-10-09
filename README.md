@@ -1,1 +1,1 @@
-# IIIF Manifest Temp Repository
+# IIIF Manifest Static Repository
