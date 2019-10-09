@@ -1,0 +1,69 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://nakamura196.github.io/iiif_manifest_repo/toyo.json",
+  "@type": "sc:Manifest",
+  "label": "大明地理之図",
+  "attribution": "東洋文庫 / TOYO BUNKO",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "大明地理之図"
+    },
+    {
+      "label": "Identifier",
+      "value": "map_toyo"
+    },
+    {
+      "label": "attributionLabel",
+      "value": "東洋文庫 / TOYO BUNKO"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://nakamura196.github.io/iiif_manifest_repo/toyo.json/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current Page Order",
+      "viewingHint": "non-paged",
+      "canvases": [
+        {
+          "@id": "https://nakamura196.github.io/iiif_manifest_repo/toyo.json/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "[1]",
+          "thumbnail": {
+            "@id": "https://nakamura196.github.io/iiif_image_repo/toyo/full/200,200/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://nakamura196.github.io/iiif_image_repo/toyo",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          },
+          "width": 29008,
+          "height": 23339,
+          "images": [
+            {
+              "@id": "https://nakamura196.github.io/iiif_manifest_repo/toyo.json/annotation/p0001-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://nakamura196.github.io/iiif_image_repo/toyo/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 29008,
+                "height": 23339,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://nakamura196.github.io/iiif_image_repo/toyo",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "width": 29008,
+                  "height": 23339
+                }
+              },
+              "on": "https://nakamura196.github.io/iiif_manifest_repo/toyo.json/canvas/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "viewingDirection": "left-to-right"
+}
